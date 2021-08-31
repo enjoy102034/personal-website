@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>聯絡、展望</title>
+<link rel="shortcut icon" href="images/logo.ico" type="image/jpg">
+<meta name=”description” content ="hello Industrious hello world">
+<link href="css/ECcss.css" rel="stylesheet">
+<link href="css/個人介紹.css" rel="stylesheet" media="screen and (min-width: 1300px)" >
+<link href="css/個人介紹sm.css" rel="stylesheet" media="screen and (max-width:1299.9px)" >
+<script src="js/jquery-3.6.0.min.js"></script>
+<link href="fontawesome/css/all.css" rel="stylesheet">
+
+<script>
+
+	$('document').ready(function(){
+		//頁面向下捲動
+		$('header a').click(function(){
+			
+			var target = $(this).attr('click-target');//先找出目標是誰
+			var h =$(target).offset().top;//找出目標距離最上方有多遠
+		
+			$('html, body').animate({
+				scrollTop: h
+				}, 1500);
+			});
+			
+		//top 向上捲動
+		$(".top a").click(function(){
+			$('html, body').animate({
+				scrollTop: 0
+			}, 500);
+		});
+
+	});
+
+
+</script>
+
+</head>
+<body class="bg-gray">
+<header class=" bg-black fixed-top height30 full-width">
+		<div class="fixed-width ">
+			<div class=" row title text-white bold"><a href="個人網站.html" class=" col-lg-12 col-sm-12 decor text-white bold">ETHAN CHIU PERSONAL WEBSITE</a></div>
+			<ul class="nav t-center ">
+				<li class ="nav1"><a href="個人介紹.html" target="_self" class="link bold">個人介紹</a>
+					<ul class="">
+						<li ><a href="個人介紹.html" click-target=".個人資料" class=" link-box bold">個人資料</a></li>
+						<li ><a href="個人介紹.html" click-target=".學歷" class="link-box bold">學歷</a></li>
+						<li ><a href="個人介紹.html" click-target=".語文能力" class="link-box bold">語文能力</a></li>
+						<li ><a href="個人介紹.html" click-target=".自傳" class="link-box bold">自傳</a></li>
+					</ul>
+				</li>
+				<li><a href="經驗.html" class="link bold">經驗</a>
+					<ul class="">
+						<li><a href="經驗.html" click-target=".校內比賽" class="link-box nav-margin bold">校內比賽</a></li>
+						<li><a href="經驗.html" click-target=".校外比賽"class="link-box nav-margin bold">校外比賽</a></li>
+						<li><a href="經驗.html" click-target=".活動" class="link-box nav-margin bold">活動</a></li>
+						<li><a href="經驗.html" click-target=".工作經驗" class="link-box nav-margin bold">工作經驗</a></li>
+					</ul>
+				</li>
+				<li><a href="專長.html" class="link bold">專長、展示</a>
+					<ul class="">
+						<li><a href="專長.html" click-target=".設計" class="link-box nav-margin bold">設計</a></li>
+						<li><a href="專長.html" click-target=".圖片" class="link-box nav-margin bold">圖片</a></li>
+						<li><a href="專長.html" click-target=".影片" class="link-box nav-margin bold">影片</a></li>
+						<li><a href="專長.html" click-target=".網頁" class="link-box nav-margin bold">網頁</a></li>
+					</ul>
+				</li>
+				<li><a href="聯絡.html" class="link bold">聯絡、展望</a>
+					<ul class="">
+						<li><a href="#" click-target=".聯絡資訊" class="link-box nav-margin bold">聯絡資訊</a></li>
+						<li><a href="#" click-target=".未來計畫" class="link-box nav-margin bold">未來計畫</a></li>
+						<li><a href="#" click-target=".目標" class="link-box nav-margin bold">目標</a></li>
+						<li><a href="#" click-target=".響應國際" class="link-box nav-margin bold">響應國際</a></li>
+					</ul>
+				</li>
+				<li><a href="個人網站.html" class="link bold">回首頁</a></li>
+			</ul>
+		</div>			
+	</div>
+</header>
+<div class="menu full-width  clearfix">
+	<div class="fixed width ">
+		<li class="row "><a href="#" class=" decor text-white bold  mm"><i class="fas fa-bars"></i><span>MENU</span></a>
+			<ul class="col-sm-12 t-center text-white pt-30">
+				<li><a href="個人介紹.html">個人介紹</a></li>
+				<li><a href="經驗.html">經驗</a></li>
+				<li><a href="專長.html">專長、展示</a></li>
+				<li><a href="聯絡.html">聯絡、展望</a></li>
+				<li ><a href="個人網站.html">回首頁</a></li>
+			</ul>
+		</li>
+	</div>
+</div>
+<div class="banner full-width bg-d-gray clearfix">
+	<div class="overlay">
+		<p class="聯絡 col-12 text-white bold t-center font-3"">聯絡、展望</p>
+		<!-- <h3 class="font-weight-normal col-8 m-auto text-white">Let your CREATIVITY flowing</h1> -->
+	</div>
+</div>	
+<div class="聯絡資訊 full-width bg-d-gray col-12 clearfix  pb-7">
+	<div class="fixed-width ">
+		<div class="row">
+			<h2 class="col-12  t-center text-white bold font-3 px-6 ">聯絡資訊</h2>
+		</div>
+		<div class="py-6">
+			<p class="col-12 text-white  t-center font-2 pt-5">主要電話 - 0900070719</p>
+			<p class="col-12 text-white  t-center font-2 pt-5">郵件 - enjoy102034@gmail.com</p>
+		</div>
+	</div>
+</div>
+<div class="未來計畫 full-width bg-d-gray col-12 clearfix  pb-7">
+	<div class="fixed-width ">
+		<div class="row">
+			<h2 class="col-12  t-center text-white bold font-3 px-6 ">未來計畫</h2>
+		</div>
+		<div class="py-6">
+			<p class="col-12 text-white  t-center font-2 pt-5">1~2年 - 平面設計 / 網頁設計 / 行銷企劃</p>
+			<p class="col-12 text-white  t-center font-2 pt-5">3~4年 - 網頁程式 / 後端資料庫 / 資料統整</p>
+			<p class="col-12 text-white  t-center font-2 pt-5">5~6年 - 大數據分析 / 後端資料庫分析 / 市場分析</p>
+		</div>
+	</div>
+</div>
+<div class="目標 full-width bg-d-gray col-12 clearfix  pb-7">
+	<div class="fixed-width ">
+		<div class="row">
+			<h2 class="col-12  t-center text-white bold font-3 px-6 ">目標</h2>
+		</div>
+		<div class="py-6">
+			<p class="col-12 text-white  t-center font-2 pt-5">1. 熟悉運用行銷設計</p>
+			<p class="col-12 text-white  t-center font-2 pt-5">2. 系統性的收集資料</p>
+			<p class="col-12 text-white  t-center font-2 pt-5">3. 精準分析市場趨勢</p>
+		</div>
+	</div>
+</div>
+<div class="響應國際 full-width bg-d-gray col-12 clearfix px-5 ">
+	<div class="fixed-width ">
+		<div class="row">
+			<h2 class="col-12  t-center text-white bold font-3 px-6 ">響應國際</h2>
+		</div>
+		<div class="pb-7 py-7">
+			<p class="col-12 text-white  t-center font-2 pt-5">助人為成功之本，助人越多，回饋越高</p>
+			<p class="col-12 text-white  t-center font-2 pt-5">期許能把自己創立的品牌推廣到全世界，讓每個人都能因為有這個品牌而得到幫助，也能帶給社會一絲進步。</p>
+		</div>
+	</div>
+</div>
+<footer class="contact full-width col-12 bg-black full-width ">
+	<div class="container">
+		<div class=" row fixed-width t-center px-4 ">
+			<h2 class="text-white col-lg-12  col-sm-12 bold">Contact infor</h2>
+		</div>	
+		<div class=" row infor fixed-width t-center col-12 col-sm-12">
+			<div class="col-lg-4 col-sm-12 t-center text-white">
+				<h3 class="pb-3 bold">Phone</h3>
+				<p class=" ">0900070719</p>
+			</div>
+			<div class="Email col-lg-4 col-sm-12 text-white">
+				<h3 class="pb-3 bold">Email</h3>
+				<p class=" email ">enjoy102034@gmail.com</p>
+			</div>
+			<div class="Other col-lg-4 col-sm-12 text-white ">
+				<h3 class="pb-3 bold">Other infor</h3>
+				<div class="social t-center pb-3">
+					<p class="pb-3"><a href="#" class="decor t-center text-white  "><i class=""></i>Facebook</a></p>		
+					<p class="pb-3"><a href="#" class="decor t-center text-white "><i class=""></i>Instagram</a></p>		
+					<p class="pb-3"><a href="#" class="decor t-center text-white "><i class=""></i>Github</a></p>			
+				</div>
+			</div>
+		</div>	
+	</div>
+</footer>
+<div class="top">
+	<a href="#">Top</a>
+</div>
+
+
+</body>
+</html>

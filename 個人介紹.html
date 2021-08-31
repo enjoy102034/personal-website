@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>個人介紹</title>
+<link rel="shortcut icon" href="images/logo.ico" type="image/jpg">
+<meta name=”description” content ="hello Industrious hello world">
+<link href="css/ECcss.css" rel="stylesheet">
+<link href="css/個人介紹.css" rel="stylesheet" media="screen and (min-width: 1300px)" >
+<link href="css/個人介紹sm.css" rel="stylesheet" media="screen and (max-width:1299.9px)" >
+<script src="js/jquery-3.6.0.min.js"></script>
+<link href="fontawesome/css/all.css" rel="stylesheet">
+
+<script>
+
+	$('document').ready(function(){
+		//頁面向下捲動
+		$('header a').click(function(){
+			
+			var target = $(this).attr('click-target');//先找出目標是誰
+			var h =$(target).offset().top;//找出目標距離最上方有多遠
+		
+			$('html, body').animate({
+				scrollTop: h
+				}, 1500);
+			});
+			
+		//top 向上捲動
+		$(".top a").click(function(){
+			$('html, body').animate({
+				scrollTop: 0
+			}, 500);
+		});
+
+	});
+
+
+</script>
+
+</head>
+<body class="bg-gray">
+<header class=" bg-black fixed-top height30 full-width">
+		<div class="fixed-width ">
+			<div class=" row title text-white bold"><a href="個人網站.html" class=" col-lg-12 col-sm-12 decor text-white bold">ETHAN CHIU PERSONAL WEBSITE</a></div>
+			<ul class="nav t-center ">
+				<li class ="nav1"><a href="個人介紹.html" target="_self" class="link bold">個人介紹</a>
+					<ul class="">
+						<li ><a href="#" click-target=".個人資料" class=" link-box bold">個人資料</a></li>
+						<li ><a href="#" click-target=".學歷" class="link-box bold">學歷</a></li>
+						<li ><a href="#" click-target=".語文能力" class="link-box bold">語文能力</a></li>
+						<li ><a href="#" click-target=".自傳" class="link-box bold">自傳</a></li>
+					</ul>
+				</li>
+				<li><a href="經驗.html" class="link bold">經驗</a>
+					<ul class="">
+						<li><a href="經驗.html" class="link-box nav-margin bold">校內比賽</a></li>
+						<li><a href="經驗.html" class="link-box nav-margin bold">校外比賽</a></li>
+						<li><a href="經驗.html" class="link-box nav-margin bold">校內活動</a></li>
+						<li><a href="經驗.html" class="link-box nav-margin bold">工作經驗</a></li>
+					</ul>
+				</li>
+				<li><a href="專長.html" class="link bold">專長、展示</a>
+					<ul class="">
+						<li><a href="專長.html" class="link-box nav-margin bold">設計</a></li>
+						<li><a href="專長.html" class="link-box nav-margin bold">圖片</a></li>
+						<li><a href="專長.html" class="link-box nav-margin bold">影片</a></li>
+						<li><a href="專長.html" class="link-box nav-margin bold">網頁</a></li>
+					</ul>
+				</li>
+				<li><a href="聯絡.html" class="link bold">聯絡、展望</a>
+					<ul class="">
+						<li><a href="聯絡.html" class="link-box nav-margin bold">聯絡資訊</a></li>
+						<li><a href="聯絡.html" class="link-box nav-margin bold">未來計畫</a></li>
+						<li><a href="聯絡.html" class="link-box nav-margin bold">目標</a></li>
+						<li><a href="聯絡.html	" class="link-box nav-margin bold">響應國際</a></li>
+					</ul>
+				</li>
+				<li><a href="個人網站.html" class="link bold">回首頁</a></li>
+			</ul>
+		</div>			
+	</div>
+</header>
+<div class="menu full-width  clearfix">
+	<div class="fixed width ">
+		<li class="row "><a href="#" class=" decor text-white bold  mm"><i class="fas fa-bars"></i><span>MENU</span></a>
+			<ul class="col-sm-12 t-center text-white pt-30">
+				<li><a href="個人介紹.html">個人介紹</a></li>
+				<li><a href="經驗.html">經驗</a></li>
+				<li><a href="專長.html">專長、展示</a></li>
+				<li><a href="聯絡.html">聯絡、展望</a></li>
+				<li ><a href="個人網站.html">回首頁</a></li>
+			</ul>
+		</li>
+	</div>
+</div>
+<div class="banner full-width bg-d-gray clearfix">
+	<div class=" fixed-width overlay col-sm-12">
+		<p class="col-12 個人介紹 text-white bold t-center font-3">個人介紹</p>
+		<!-- <h3 class="font-weight-normal col-8 m-auto text-white">Let your CREATIVITY flowing</h1> -->
+	</div>
+</div>	
+<div class="個人資料 full-width bg-d-gray col-12 clearfix ">
+	<div class="fixed-width">
+		<div class=" col-12">
+			<h2 class=" t-center  text-white bold px-5 ">個人資料</h2>
+		</div>
+	</div>
+	<div class="fixed-width">
+		<div class=" colomn col-12">
+				<span class="pt-5  "><img src="images/photo.jpg"></span>
+		</div>
+		<div class="col-12">
+			<ul class=" text-white  bold t-center  py-6 font-1-5">
+				<li class="pt-5 "> 個人資料 - 男  23歲  </li>
+				<li class="pt-5 "> 就業狀態 - 待業中</li>
+				<li class="pt-5 "> 主要手機  - 0900-070-719</li>
+				<li class="pt-5 "> E-mail	- enjoy102034@gmail.com</li>
+			</ul>
+		</div>
+		<div class="col-12">
+			<ul class="text-white bold t-center  py-6 font-1-5">
+				<li class="pt-5 "> 通訊地址	- 新北市中和區</li>
+				<li class="pt-5 "> 英文姓名	- Ethan</li>
+				<li class="pt-5"> 駕駛執照	- 普通小型車駕照</li>
+				<li class="pt-5 "> 身高體重	- 172cm  65kg</li>			
+			</ul>
+		</div>	
+	</div>
+</div>
+<div class="學歷 full-width bg-d-gray col-12 clearfix t-center" >
+	<div class=" t-center">
+		<h2 class="t-center text-white bold   px-6">學歷</h2>
+	</div>
+	<div class="學校  text-white  bold col-12 font-1-5">
+		<p class="p1 text-white   ">就讀大學 - 銘傳大學</p>
+		<p class="text-white pt-5 ">就讀時間 - 2016/9(入校)~2020/6(畢業)</p>
+		<p class="text-white pt-5 ">學系 - 國際企業與貿易系</p>
+	</div>
+</div>
+<div class="語文能力 bg-d-gray full-width col-12 clearfix px-5" >
+	<div>
+		<h2 class="t-center text-white bold px-6 ">語文能力</h2>
+	</div>
+	<div class="語文 t-center text-white bold py-6 font-1-5">
+		<p>英文 - 聽：精通 ，說：中等 ，讀：中等 ，寫：中等</p>
+		<p class="pt-5">(IELTS 6.5分 、TOEIC (多益測驗) 715分)</p>
+		<p  class="pt-5">台語 - 略懂</p>
+	</div>
+</div>
+<div class="自傳 full-width bg-d-gray col-12 clearfix  text-white bg-d-gray">
+		<div>
+		<h2 class="t-center text-white bold px-6 ">自傳</h2>
+	</div>
+	<div class="pb-7 ">
+		<h2 class="py-6 text-white bold font-2 px-5 t-center">中文自傳</h2>
+		<p class="英文自傳 font-2 px-4 py-6">我叫邱麒九, 畢業於銘傳大學國際學院國際商業與貿易學系，從小到大喜歡和外國人接觸，所以在大學時選擇國際學院，讓我能有機會和外籍生一起上課。在大學學習中，也發現了許多不同文化的相處模式差別，在合作上也會出現些許的摩擦，但經過不斷的溝通與了解，也讓我更能和他們合作並了解不同的文化。除此之外，我在大學中最有興趣的就是行銷市場和消費者行為等等。在學習這些基本知識後，我希望能有工作的體驗，讓我能理解行銷的實質工作。在大學除了學習課業外，我也和同學去參加 “HULT PRIZE＂和 “YUNUS PRIZE” 等大學舉辦的比賽，在這些比賽目標是讓大學生能做出擁有永續目標的商業企劃，而我們組也在YUNUS PRIZE的比賽當中獲得了第三名。經過這些經驗，也提升了在台上演講和跟外籍同學合作的能力。而現今的我希望能在我的職務中學習更多得經驗，讓我能更加熟練的並了解行銷的工作。</p>
+		<h2 class=" py-6 text-white bold font-2 px-5 t-center ">英文自傳</h2>
+		<p class="英文自傳 font-2 px-4 py-6 pb-5">My name is Ethan Chiu. I am graduated from the International Business and Trade Program of the international college department at Ming Chuan University. Since childhood, I liked to make friends with people from different countries, so that was the reason why I chose International College to have more opportunities to cooperate with international students. During these four years, although some misunderstood or the small fights would happen when I cooperated with others, I chose to solve it through communication and understood of their culture. This way let me know how to cooperate with them correctly. Moreover, my favorite subject in college is marketing and customer behaviors, etc. After learning this knowledge, what I really want is experience from getting a related job. This may let me get more understand of what “Marketing” precisely means. Besides academic learning, I also joined the “HULT PRIZE” and “YUNUS PRIZE” college competitions with my group members. Each group needed to make a business plan with SDG, which stands for sustainable development goals. Our team, fortunately, won the third place of YUNUS PRUZE competition. After those experience, my presentation and negotiation skills were also improved. And now, I hope to get more experience in marketing skills from my future job.</p>
+
+	</div>
+</div>
+<footer class="contact full-width col-12 bg-black full-width ">
+	<div class="container">
+		<div class=" row fixed-width t-center px-4 ">
+			<h2 class="text-white col-lg-12  col-sm-12 bold">Contact infor</h2>
+		</div>	
+		<div class=" row infor fixed-width t-center col-12 col-sm-12">
+			<div class="col-lg-4 col-sm-12 t-center text-white">
+				<h3 class="pb-3 bold">Phone</h3>
+				<p class=" ">0900070719</p>
+			</div>
+			<div class="Email col-lg-4 col-sm-12 text-white">
+				<h3 class="pb-3 bold">Email</h3>
+				<p class=" email ">enjoy102034@gmail.com</p>
+			</div>
+			<div class="Other col-lg-4 col-sm-12 text-white ">
+				<h3 class="pb-3 bold">Other infor</h3>
+				<div class="social t-center pb-3">
+					<p class="pb-3"><a href="#" class="decor t-center text-white  "><i class=""></i>Facebook</a></p>		
+					<p class="pb-3"><a href="#" class="decor t-center text-white "><i class=""></i>Instagram</a></p>		
+					<p class="pb-3"><a href="#" class="decor t-center text-white "><i class=""></i>Github</a></p>			
+				</div>
+			</div>
+		</div>	
+	</div>
+</footer>
+<div class="top">
+	<a href="#">Top</a>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>經驗</title>
+<link rel="shortcut icon" href="images/logo.ico" type="image/jpg">
+<meta name=”description” content ="hello Industrious hello world">
+<link href="css/ECcss.css" rel="stylesheet">
+<link href="css/個人介紹.css" rel="stylesheet" media="screen and (min-width: 1300px)" >
+<link href="css/個人介紹sm.css" rel="stylesheet" media="screen and (max-width:1299.9px)" >
+<script src="js/jquery-3.6.0.min.js"></script>
+<link href="fontawesome/css/all.css" rel="stylesheet">
+
+
+<script>
+
+	$('document').ready(function(){
+		//頁面向下捲動
+		$('header a').click(function(){
+			
+			var target = $(this).attr('click-target');//先找出目標是誰
+			var h =$(target).offset().top;//找出目標距離最上方有多遠
+		
+			$('html, body').animate({
+				scrollTop: h
+				}, 1500);
+			});
+			
+		//top 向上捲動
+		$(".top a").click(function(){
+			$('html, body').animate({
+				scrollTop: 0
+			}, 500);
+		});
+
+	});
+
+
+</script>
+
+</head>
+<body class="bg-black">
+<header class="bg-black fixed-top height30 full-width">
+		<div class="fixed-width ">
+			<div class=" row title text-white bold"><a href="個人網站.html" class=" col-lg-12 col-sm-12 decor text-white bold">ETHAN CHIU PERSONAL WEBSITE</a></div>
+			<ul class="nav t-center ">
+				<li class ="nav1"><a href="個人介紹.html" target="_self" class="link bold">個人介紹</a>
+					<ul class="">
+						<li ><a href="個人介紹.html" click-target=".個人資料" class=" link-box bold">個人資料</a></li>
+						<li ><a href="個人介紹.html" click-target=".學歷" class="link-box bold">學歷</a></li>
+						<li ><a href="個人介紹.html" click-target=".語文能力" class="link-box bold">語文能力</a></li>
+						<li ><a href="個人介紹.html" click-target=".自傳" class="link-box bold">自傳</a></li>
+					</ul>
+				</li>
+				<li><a href="經驗.html" class="link bold">經驗</a>
+					<ul class="">
+						<li><a href="#" click-target=".校內比賽" class="link-box nav-margin bold">校內比賽</a></li>
+						<li><a href="#" click-target=".校外比賽"class="link-box nav-margin bold">校外比賽</a></li>
+						<li><a href="#" click-target=".活動" class="link-box nav-margin bold">活動</a></li>
+						<li><a href="#" click-target=".工作經驗" class="link-box nav-margin bold">工作經驗</a></li>
+					</ul>
+				</li>
+				<li><a href="專長.html" class="link bold">專長、展示</a>
+					<ul class="">
+						<li><a href="專長.html" click-target=".設計" class="link-box nav-margin bold">設計</a></li>
+						<li><a href="專長.html" click-target=".圖片" class="link-box nav-margin bold">圖片</a></li>
+						<li><a href="專長.html" click-target=".影片" class="link-box nav-margin bold">影片</a></li>
+						<li><a href="專長.html" click-target=".網頁" class="link-box nav-margin bold">網頁</a></li>
+					</ul>
+				</li>
+				<li><a href="聯絡.html" class="link bold">聯絡、展望</a>
+					<ul class="">
+						<li><a href="聯絡.html" click-target=".聯絡資訊" class="link-box nav-margin bold">聯絡資訊</a></li>
+						<li><a href="聯絡.html" click-target=".未來計畫" class="link-box nav-margin bold">未來計畫</a></li>
+						<li><a href="聯絡.html" click-target=".目標" class="link-box nav-margin bold">目標</a></li>
+						<li><a href="聯絡.html" click-target=".響應國際" class="link-box nav-margin bold">響應國際</a></li>
+					</ul>
+				</li>
+				<li><a href="個人網站.html" class="link bold">回首頁</a></li>
+			</ul>
+		</div>			
+	</div>
+</header>
+<div class="menu full-width  clearfix">
+	<div class="fixed width ">
+		<li class="row "><a href="#" class=" decor text-white bold  mm"><i class="fas fa-bars"></i><span>MENU</span></a>
+			<ul class="col-sm-12 t-center text-white pt-30">
+				<li><a href="個人介紹.html">個人介紹</a></li>
+				<li><a href="經驗.html">經驗</a></li>
+				<li><a href="專長.html">專長、展示</a></li>
+				<li><a href="聯絡.html">聯絡、展望</a></li>
+				<li ><a href="個人網站.html">回首頁</a></li>
+			</ul>
+		</li>
+	</div>
+</div>
+<div class="banner full-width bg-d-gray ">
+	<div class="overlay">
+		<p class="經驗 col-12 text-white bold t-center font-3">經驗</p>
+		<!-- <h3 class="font-weight-normal col-8 m-auto text-white">Let your CREATIVITY flowing</h1> -->
+	</div>
+</div>	
+<div class="校內比賽 full-width  bg-d-gray col-12 clearfix px-4 ">
+	<div class="fixed-width ">
+		<div class="row ">
+			<h2 class=" col-12 t-center text-white bold px-5 bold ">校內比賽</h2>
+		</div>
+		<div class=" row py-5">
+			<div class="img col-sm-12 col-lg-6 px-5"><img src="images/HULT PRIZE1.jpg"></div>
+			<div class=" col-lg-6 content text-white font-1-5">
+					<h3 class="pt-5 bold ">HULT PRIZE 2018 學院賽</h3>
+					<p class="pt-4 "> Hult Prize是世界上最大的大學商業計劃競賽是由美國Hult Prize Foundation發起的全球大學商業提案競賽，透過每年提供一組100萬美金的高額創業競賽獎金，鼓勵各國大學、研究生學生關注和參與社會影響力創新創業議題，思考用商業創意來解決包含難民、人類饑荒、能源危機等重大全球發展議題，並且在畢業後善用這筆創業獎金，持續推動方案落實成為社會企業。</p>
+			</div>			
+		</div>
+		<div class=" row py-5 pt-5">
+			<div class="img col-sm-12 col-lg-6 pt-4"><img src="images/HULT PRIZE1.jpg"></div>
+			<div class=" col-lg-6 content text-white font-1-5 col-sm-12 ">
+					<h3 class="pt-5 bold ">HULT PRIZE 2019 學院賽</h3>
+					<p class="pt-4">因為有更多的經驗 我們這組能更拿手的去發揮 讓我們能得到第六名的成績</p>
+					<p>這次比賽提升的能力</p>		
+					<p>1.領導力 - 身為隊長的我必須分配任務和確保計畫無紕漏</p>		
+					<p>2.談判力 - 如何和隊友討論做什麼才是團隊最有利的</p>		
+					<p>3.表達力 - 如何在台上大方的表達自己的計劃</p>	
+					
+			</div>			
+		</div>
+	</div>
+</div>
+<div class="校外比賽 full-width bg-d-gray col-12 clearfix px-6 ">
+	<div class="fixed-width ">
+		<div class="row">
+			<h2 class=" col-lg-12 col-sm-12 t-center text-white bold px-5 ">校外比賽</h2>
+		</div>
+		<div class=" row py-65 ">
+			<div class="img col-sm-12 col-lg-6 px-5"><img src="images/cc.jpg"></div>
+			<div class=" col-lg-6 content text-white font-1-5 ">
+					<h3 class="pt-5  bold ">中央大學第四屆尤努斯比賽第三名</h3>
+					<p class="pt-4 "> 尤努斯比賽為加強台灣社企圈與國際鏈結,本屆競賽進行方式相較於往年有大幅調整,包含相關課程、培訓、及活動將全程以英語的方式進行,並與法國 makesense 社會創業家國際組織在台分支makesense Taiwan 合作,提供國際師資與輔導課程,培育潛力團隊參與國際社企事務,增進全球社群夥伴參與及協同合作,擴大台灣社企影響力。我們團隊為雲塭醫生，經過三輪篩選，幸運的得到第三名。</p>
+			</div>			
+		</div>
+	</div>
+</div>
+<div class="活動 full-width bg-d-gray col-12 clearfix ">
+	<div class="fixed-width ">
+		<div class="row">
+			<h2 class="col-lg-12 col-sm-12 t-center text-white bold px-5 ">活動</h2>
+		</div>
+		<div class=" row py-65 ">
+			<div class="img col-sm-12 col-lg-6 px-5"><img src="images/dd.jpg"></div>
+			<div class=" col-lg-6 col-sm-12 content text-white font-1-5">
+					<h3 class="pt-5 col-sm-12 bold font-1-5">泰國見習獎狀</h3>
+					<p class="pt-4 ">很榮幸能代表學校去泰國見習了解當地的亞洲廠商狀況</p>
+					<p>	1.深入了解泰國文化</p>
+					<p>	2.了解泰國發展近況</p>
+					<p>	3.亞洲廠商在泰國設置近況</p>
+		</div>	
+	</div>
+</div>
+<div class="工作經驗 full-width bg-h-black col-12 clearfix pt-5 pb-7">
+	<div class="fixed-width ">
+		<div class="row">
+			<h2 class=" col-12 t-center text-white bold px-5 ">工作經驗</h2>
+		</div>
+		<div class="">
+			<div class=" content text-white py-6">
+				<h3 class=" col-12 pt-4 px-5 font-2 bold t-center font-2">行銷計畫助理</h3>
+				<p class="col-12 pt-4 t-center font-1-5">1.任職行銷助理，負責與國內各大電商接洽合作</p>
+				<p class="col-12 pt-3 t-center font-1-5">2.撰寫商品文案和計畫，準備電視購物與直播前的準備工作，包含 接洽來賓和與各大電商負責人開會等等</p>
+				<p class="col-12 pt-3 t-center font-1-5">3.製作行銷刊版和商品資料，將商品優點極大化</p>
+				<p class=" col-12 pt-3 t-center font-1-5">#業務或通路開發 #Adobe Ph	otoshop #Illustrator #廣告企劃案╱文案撰寫 #產品介紹及解說銷售.</p>
+			</div>			
+		</div>
+	</div>
+</div>
+<footer class="contact full-width col-12 bg-black full-width ">
+	<div class="container">
+		<div class=" row fixed-width t-center px-4 ">
+			<h2 class="text-white col-lg-12  col-sm-12 bold">Contact infor</h2>
+		</div>	
+		<div class=" row infor fixed-width t-center col-12 col-sm-12">
+			<div class="col-lg-4 col-sm-12 t-center text-white">
+				<h3 class="pb-3 bold">Phone</h3>
+				<p class=" ">0900070719</p>
+			</div>
+			<div class="Email col-lg-4 col-sm-12 text-white">
+				<h3 class="pb-3 bold">Email</h3>
+				<p class=" email ">enjoy102034@gmail.com</p>
+			</div>
+			<div class="Other col-lg-4 col-sm-12 text-white ">
+				<h3 class="pb-3 bold">Other infor</h3>
+				<div class="social t-center pb-3">
+					<p class="pb-3"><a href="#" class="decor t-center text-white  "><i class=""></i>Facebook</a></p>		
+					<p class="pb-3"><a href="#" class="decor t-center text-white "><i class=""></i>Instagram</a></p>		
+					<p class="pb-3"><a href="#" class="decor t-center text-white "><i class=""></i>Github</a></p>			
+				</div>
+			</div>
+		</div>	
+	</div>
+</footer>
+<div class="top">
+	<a href="#">Top</a>
+</div>
+
+
+</body>
+</html>

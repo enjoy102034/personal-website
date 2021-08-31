@@ -1,0 +1,265 @@
+/* header start */
+ 
+	header {
+		height:100px;
+		line-height:100px;
+		/* position:fixed; */
+	}
+	
+	.title {
+		width:500px;
+		font-size:1.5rem;
+		float:left;
+		padding-left: 50px;
+	}
+	
+	ul.nav {
+		width: calc(50%-50px);
+		list-style: none;
+		padding-top: 20px;
+		padding-right: 10px;
+		float:right;
+		}
+
+	
+	.nav li{
+		width:120px;
+		height:60px;
+		line-height: 60px;
+		float:left;
+		z-index:1000!important;
+		font-size:1rem;
+		/* margin-top: 15px; */
+	}
+	
+	ul.nav li li {
+		border-top:#000 1px solid;
+	}
+	
+	ul.nav li ul{ 
+		display: none;
+		z-index:1000;		
+	}
+	
+	ul.nav li:hover ul{ 
+		display: block;
+		z-index:1000;
+	}
+	
+/* menu  */
+
+.menu {
+	display:none;
+}
+
+	
+	
+
+/* banner start */
+
+	.個人介紹, .專長, .經驗, .聯絡 {
+	padding:280px 0;
+	/* padding-left:41%; */
+	font-size:5rem;
+	} 
+	
+	
+	.banner {
+		height:700px;
+		margin: 0;
+		background: url('images/uranus.jpg') center center no-repeat;
+		background-attachment: fixed;
+		background-size:cover;
+	}
+	
+	.banner .overlay {
+		background: rgba(0,0,0,0.5);
+		background-size:cover;
+		padding: 0;
+		margin: 0;
+		width:100%;
+		height: 100%;
+	}
+	
+	/* .banner  img{ */
+		/* padding-top:150px; */
+		/* padding-left:43%; */
+		/* height:250px; */
+		/* width:250px; */
+	/* } */
+	
+	.banner h1{
+		padding-top: 10px;
+		padding-left:43%;
+	}
+	
+		
+	.banner h3{
+		/* padding-top: 10px; */
+		padding-left:43.3%;
+	}
+
+/* 個人資料 start */
+
+.個人資料  {
+	
+}
+
+.個人資料 span{
+	/* padding-top:180px; */
+	display:block;
+	text-align:center;
+}
+
+.個人資料 img {
+	height:300px;
+	/* padding-top:50px; */
+}
+
+.個人資料 div div {
+	width: 33.33%;
+	/* float: left; */
+	padding: 30px 0;
+}	
+
+.colomn {
+	padding-right:20%;
+	padding-left:20%;
+} 
+
+
+
+
+/* 學歷  */
+
+.學歷 {
+	background-color:#333;
+	height: 450px;
+}
+
+
+.學歷 .學校 p{
+	padding:20px;
+	text-align:text-center;
+}
+
+/* 語文能力  */
+
+.語文能力 {
+	background-color:#333;
+	height: 450px;
+}
+
+.語文能力 .語文 p{
+	padding:20px;
+	text-align:text-center;
+}
+
+/* 自傳  */
+
+.自傳 {
+	background-color:#333;
+	height: 2000px;
+}
+
+.自傳 p{
+	line-height:50px;
+}
+
+.英文自傳{
+	text-align:justify;
+}
+
+/* 校內比賽 校外比賽*/
+
+.校內比賽 img, .校外比賽 img ,.活動 img ,.設計 img,.影片 img,.網頁 img ,.聯絡資訊 img{
+	height:300px;
+	width:400px;
+	float:right;
+}
+
+.圖片 img{
+	height:350px;
+	width:350px;
+	float:right;
+	
+}
+
+
+.校內比賽 h2, .校外比賽 h2, .活動 h2,.設計 h2,.圖片 h2,.影片 h2,.網頁 h2,.聯絡資訊 h2{
+	font-size:2.5rem;
+	float:left;
+
+}
+
+.content p{
+	width:700px;
+}
+
+
+.響應國際,.網頁,.工作經驗 {
+	padding-bottom:150px;
+}
+
+
+/* footer  */
+
+		
+	footer {
+		height:350px;
+	}
+	
+	.container {
+		padding:0 10%;
+
+	}
+	
+	footer h2 {
+		font-size: 3rem;
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+	
+	footer h3 {
+		font-size: 1.5rem;
+	}
+	
+	
+	footer .social p a{
+		color:#fff;
+		transition: color 0.3s;
+
+	}
+	
+	
+	footer .social p a:hover{
+		color:rgba(125,125,125,0.8);
+		transition: color 0.3s;
+	}
+	
+/* top start */
+
+	div.top {
+		width:100px;
+		height: 100px;
+		line-height:100px;
+		text-align: center;
+		position:fixed;
+		right:40px;
+		bottom:40px;
+	}
+
+	div.top a {
+		text-decoration: none;
+		display:block;
+		font-size: 2rem;
+		color:#fff;
+		text-transform:uppercase;
+		background-color: rgba(128,128,64,0.3);
+		transition:background-color: 0.3s;
+	}
+
+	div.top a:hover {
+		background-color: rgba(128,128,64,0.8);
+		transition:background-color: 0.3s;
+	}

@@ -1,0 +1,145 @@
+ 
+ /* header start */
+ 
+	header {
+		height:100px;
+		line-height:100px;
+		/* position:fixed; */
+	}
+
+	.title {
+		width:500px;
+		font-size:1.5rem;
+		float:left;
+	}
+	
+	ul.nav {
+		width: calc(50%-50px);
+		list-style: none;
+		padding-top: 20px;
+		float:right;
+		}
+	
+	.nav li{
+		width:150px;
+		height:60px;
+		line-height: 60px;
+		float:left;
+		z-index:1000;
+		font-size:1rem;
+		/* margin-top: 15px; */
+	}
+	
+	ul.nav li li {
+		border-top:#000 1px solid;
+	}
+	
+	ul.nav li ul{ 
+		display: none;	
+	}
+	
+	ul.nav li:hover ul{ 
+		display: block;
+	}
+	
+/* menu */
+
+	.menu {
+		display:none;
+	}
+	
+/* banner */
+
+	.banner {
+		height:700px;
+		margin: 0;
+		background: url('images/uranus.jpg') center center no-repeat;
+		background-attachment: fixed;
+		background-size:cover;
+	}
+	
+	.banner .overlay {
+		background: rgba(0,0,0,0.5);
+		background-size:cover;
+		padding: 0;
+		margin: 0;
+		height: 100%;
+		width:100%;
+	}
+	
+	.banner span{
+		padding-top:180px;
+		display:block;
+		text-align:center;
+	}
+
+	.banner img{
+		height:250px;
+		width:250px;
+		padding-left:30px;
+	}
+
+	.banner h1,.banner h3{
+		/* height:200px; */
+		text-align:center;
+		/* padding-:40%; */
+	}
+	
+	.banner h1 {
+		padding-top:10px;
+	}
+	
+	.banner h3{
+		padding-left:15px;
+	}
+	
+	/* .banner span img{ */
+		/* padding-top:150px; */
+		/* padding-left:40%; */
+		/* height:250px; */
+		/* width:250px; */
+	/* } */
+	
+	/* .banner h1{ */
+
+		/* padding-left:40%; */
+		/* text-decoration:none; */
+	/* } */
+	
+		
+	/* .banner h3{ */
+
+		/* padding-left:40.3%; */
+	/* } */
+
+		
+/* footer start */
+
+		
+	footer {
+		height:350px;
+	}
+	
+	
+	footer h2 {
+		font-size: 3rem;
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+	
+	footer h3 {
+		font-size: 1.5rem;
+	}
+	
+	footer .social p a{
+		color:#fff;
+		transition: color 0.3s;
+
+	}
+	
+	
+	footer .social p a:hover{
+		color:rgba(125,125,125,0.8);
+		transition: color 0.3s;
+	}
+	
