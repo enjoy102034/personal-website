@@ -158,15 +158,15 @@ header {
 }
 
 .banner img{
-	height:200px;
-	width:200px;
+	height:400px;
+	width:400px;
+	
 }
 
-.banner p {
+.banner h1,.banner h3{
 	/* height:200px; */
 	text-align:center;
-	padding-top:200px;
-	/* padding-left:40%; */
+	padding-top:10px;
 }
 
 /* 個人資料 */
