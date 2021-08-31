@@ -95,6 +95,35 @@ header {
 	z-index:1000;
 }
 
+.menu li p {
+	display:none;
+	z-index:1000;
+}
+
+.menu li:hover  p{
+	display:block;
+	z-index:1000;
+}
+
+
+.menu li  p{
+	color:#fff;
+	padding-top:60px;
+	background-color:#000;
+	position:fixed;
+	padding-left:95%;
+}
+
+.menu li p li{
+	display:block;
+	z-index:1000;
+}
+
+.menu li p:hover li{
+	display:none;
+	z-index:1000;
+}
+
 .menu ul li a{
 	line-height:20px;
 	text-decoration:none;
