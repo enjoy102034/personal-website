@@ -33,11 +33,19 @@
 		
 				
 		$('.menu p').click(function(){
-		$('.menu ').fadeOut()
+		$('.menu ul').hide()
 		});
 		
 		$('.menu p').click(function(){
-		$('.menu ').fadeIn()
+		$('.menu p').hide()
+		});
+		
+		$('.menu .mm').click(function(){
+		$('.menu p').show()
+		});
+		
+		$('.menu .mm').click(function(){
+		$('.menu ul').show()
 		});
 
 	});
