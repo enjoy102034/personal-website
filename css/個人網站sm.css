@@ -28,13 +28,19 @@
 
 .menu p a{
 	line-height:30px;
+	padding-top:30px;
 	text-decoration:none;
 	color:#fff;
 	font-weight:bold;
 }
 
+.menu li ul{
+	padding-top:10px;
+}
+
 .menu li li{
 	display:none;
+	
 }
 
 .menu li:hover ul li {
@@ -43,12 +49,11 @@
 }
 
 .menu ul li a{
-	line-height:30px;
+	line-height:40px;
 	text-decoration:none;
 	color:#fff;
 	font-weight:bold;
 }
-
 
 
 /* banner */
