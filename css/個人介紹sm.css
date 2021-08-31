@@ -14,6 +14,7 @@ header {
 	text-align:left;
 	/* padding-left:42%; */
 	line-height:100px;
+	font-size:1.5rem;
 	/* position:fixed; */
 }
 
@@ -43,31 +44,32 @@ header {
 
 .menu li ul{
 	/* position:fixed; */
-	padding-top:45px;
+	padding-top:60px;
 	/* left:85%; */
 	height:100%;
-	margin-top:20px;
-	/* padding-top:30px; */
+	width:100%;
+	/* margin-top:50px; */
+	/* padding-bottom:30px; */
 }
 
 
 .mm {
 	position:fixed;
-	padding-top:38px;
-	left:88%;
+	padding-top:35px;
+	left:85%;
+	font-size:1.3rem;
 	/* height:100%; */
 }
-
 
 
 .menu li li{
 	/* position:fixed; */
 	/* text-align:center; */
-	/* padding-top:20px; */
-	/* padding-right:50px; */
+	padding-top:20px;
+	padding-bottom:10px;
 	background-color:#000;
 	/* margin-top:10px; */
-	line-height:60px;
+	/* line-height:60px; */
 	/* padding-top:30px; */
 	/* height:20px; */
 	/* left:45%; */
@@ -85,10 +87,6 @@ header {
 	display:none;
 }
 
-.menu li:hover ul li {
-	display:none;
-	z-index:1000;
-}
 
 .menu li:hover ul li {
 	display:block;
@@ -108,11 +106,13 @@ header {
 
 .menu li  p{
 	color:#fff;
-	padding-top:60px;
+	padding-top:40px;
 	background-color:#000;
 	position:fixed;
 	padding-left:95%;
+	
 }
+
 
 .menu li p li{
 	display:block;
@@ -124,13 +124,22 @@ header {
 	z-index:1000;
 }
 
+
+/* .menu li ul p:hover li{ */
+	/* display:none; */
+	/* z-index:1000; */
+/* } */
+
+
+
+
+
 .menu ul li a{
 	line-height:20px;
 	text-decoration:none;
 	color:#fff;
 	font-weight:bold;
 }
-	
 /* banner */
 
 .banner {
