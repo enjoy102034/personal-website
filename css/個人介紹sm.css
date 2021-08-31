@@ -43,11 +43,11 @@ header {
 
 .menu li ul{
 	/* position:fixed; */
-	/* padding-top:60px; */
+	padding-top:60px;
 	/* left:85%; */
 	height:100%;
-	padding-top:70px;
-	background-color:#000;
+	/* margin-top:70px; */
+	/* background-color:#000; */
 	padding-bottom:10px;
 }
 
@@ -103,11 +103,11 @@ header {
 
 .menu li  p{
 	color:#fff;
-	padding-top:50px;
+	padding-top:40px;
 	background-color:#000;
 	position:fixed;
 	padding-left:90%;
-	padding-right:5%;
+	padding-right:20%;
 }
 
 .menu li p li{
