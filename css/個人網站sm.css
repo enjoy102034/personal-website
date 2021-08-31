@@ -21,6 +21,11 @@
 	/* position:fixed; */
 }
 
+.menu span {
+	padding-left:5px;
+	
+}
+
 .menu p a{
 	line-height:30px;
 	text-decoration:none;
