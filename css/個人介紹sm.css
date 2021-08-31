@@ -85,6 +85,10 @@ header {
 	display:none;
 }
 
+body:hover .menu li li{
+	display:none;
+}
+
 .menu li:hover ul li {
 	display:block;
 	z-index:1000;
