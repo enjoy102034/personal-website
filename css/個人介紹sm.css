@@ -1,16 +1,24 @@
-
-
 /* header */
+
+header {
+	position:fixed;
+	z-index:1000;
+}
+
+.title {
+	/* position:fixed; */
+}
+
  .title a{
-	text-align:center;
+	text-align:left;
 	/* padding-left:42%; */
-	line-height:60px;
+	line-height:100px;
+	/* position:fixed; */
 }
 
 .nav1 a{
 	background-color:#000;
 	line-height:30px;
-
 }
 
 .nav {
