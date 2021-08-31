@@ -85,8 +85,9 @@ header {
 	display:none;
 }
 
-body:hover .menu li li{
+.menu li:hover ul li {
 	display:none;
+	z-index:1000;
 }
 
 .menu li:hover ul li {
