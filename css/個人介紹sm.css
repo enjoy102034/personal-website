@@ -225,9 +225,13 @@ header {
 
 /* p */
 
-.個人資料 p,.學歷 p,.語文能力 p,.自傳 p{
+.個人資料 p,.學歷 p,.語文能力 p{
 	text-align:center;	
 	font-size:1.5rem;
+}
+
+.自傳 p {
+	text-align:justify;
 }
 
 
